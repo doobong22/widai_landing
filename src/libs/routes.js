@@ -1,0 +1,33 @@
+const exportData = {
+    login: "/login",
+    signUp: "/signUp",
+    landing: "/landing",
+    home: "/",
+    image: "/image",
+    video: "/video",
+    shorts: "/shorts",
+    kart: "/kart",
+    others: "/others",
+    like: "/like",
+    plan: "/plan",
+    accountSetting: "/accountSetting",
+    deleteAccount: "/deleteAccount",
+    terms: "/trems",
+    announce: "/announce",
+    announceDetail: "/announceDetail",
+    empty: "/empty",
+    videoFrame: "/videoFrame",
+    styleTransfer: "/styleTransfer",
+    videoColor: "/videoColor",
+    customLearn: "/customLearn", 
+    videoToVideo: "/videoToVideo",
+    upscaleVideo: "/upscaleVideo",
+    videoOutpainting: "/videoOutpainting",
+    videoDenoise: "/videoDenoise",
+    sketchToImage: "/sketchToImage",
+    backgroundRemover: "/backgroundRemover",
+    styleTransferOther: "/styleTransferOther",
+}
+
+export default exportData;
+  

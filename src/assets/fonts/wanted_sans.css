@@ -1,0 +1,41 @@
+@font-face {
+	font-family: 'WantedSans';
+	font-weight: 900;
+	font-display: swap;
+	src: local('WantedSans Black'), url(./woff/WantedSans-Black.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'WantedSans';
+	font-weight: 800;
+	font-display: swap;
+	src: local('WantedSans ExtraBold'), url(./woff/WantedSans-ExtraBold.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'WantedSans';
+	font-weight: 700;
+	font-display: swap;
+	src: local('WantedSans Bold'), url(./woff/WantedSans-Bold.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'WantedSans';
+	font-weight: 600;
+	font-display: swap;
+	src: local('WantedSans SemiBold'), url(./woff/WantedSans-SemiBold.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'WantedSans';
+	font-weight: 500;
+	font-display: swap;
+	src: local('WantedSans Medium'), url(./woff/WantedSans-Medium.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'WantedSans';
+	font-weight: 400;
+	font-display: swap;
+	src: local('WantedSans Regular'), url(./woff/WantedSans-Regular.woff) format('woff');
+}
