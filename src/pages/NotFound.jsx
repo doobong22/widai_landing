@@ -5,15 +5,18 @@ import routes from "@/libs/routes";
 
 export default function Page() {
 	const navigate = useNavigate();
-    const location = useLocation();
+	const location = useLocation();
 
 	useEffect(() => {
 		navigate(routes.home);
-    }, []);
+	}, []);
 
 	return (
 		<div className='null_box' style={{ height: '100%' }}>
-			<h1>페이지를 찾을 수 없습니다</h1>
+			<h1>Page Not Found!</h1>
+			<button onClick={() => {
+				navigate("/")
+			}}>go main</button>
 		</div>
 	)
 }

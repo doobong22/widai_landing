@@ -43,19 +43,8 @@ function App() {
 		<>
 			<Routes>
 				<Route path="/" element={<Home />} />
+				<Route path="/*" element={<Home />} />
 			</Routes>
-
-
-			<ToastContainer
-				position="bottom-center"
-				autoClose={2000}
-				hideProgressBar={false}
-				newestOnTop
-				closeOnClick
-				rtl={false}
-				draggable
-				theme="light"
-			/>
 		</>
 	)
 }

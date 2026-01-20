@@ -8,13 +8,12 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "scp": "scp -P 11299 -r ./dist/* root@211.223.88.86:/var/www/html/admin/"
+    "scp": "scp -r -i /Users/juhyunoh/work/keys/widai/widai_server.pem ./dist/* ubuntu@43.202.221.2:/var/work/landing"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@mui/material": "^7.3.4",
-    "@toast-ui/react-editor": "^3.2.3",
     "axios": "^1.10.0",
     "crypto-js": "^4.2.0",
     "date-fns": "^4.1.0",
